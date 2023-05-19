@@ -110,7 +110,7 @@ namespace CollectionsMasterConsoleUI
             //TODO: Create a method that will remove all odd numbers from the list then print results
             Console.WriteLine("Evens Only!!");
             OddKiller(numberList);
-            
+            NumberPrinter(numberList); 
             Console.WriteLine("------------------");
             //TODO: Sort the list then print results
             Console.WriteLine("Sorted Evens!!");
@@ -151,7 +151,7 @@ namespace CollectionsMasterConsoleUI
                     numberList.Remove(numberList[i]);
                 }
 
-                NumberPrinter(numberList); 
+                 
             }
         }
 
